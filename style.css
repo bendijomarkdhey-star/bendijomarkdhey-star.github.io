@@ -1,0 +1,19 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-position: center;
+	height: 100vh;
+	flex-direction: column;
+}
+button {
+	background: blue;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+}
+button:hover {
+		background: darkblue;
+		transition: 0.5s ease-in-out;
+}
